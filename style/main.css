@@ -266,12 +266,53 @@ nav .container .nav_social {
 /* ---------------------------------------------------------------------- */
 
 footer {
-    height: 20vh;
+    /* min-height: fit-content; */
     background-color: var(--primary-dark-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--white-color);
+}
+footer .container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.chat {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.check_out .icons {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    margin-top: 1em;
+}
+.check_out .icons i {
+    color: var(--white-color);
+}
+.copy_right {
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.25em;
+    opacity: 0.6;
+}
+.chat_btn {
+    background-color: var(--white-color);
+    color:  #000;
+}
+.chat_btn span {
+    color: #000;
+}
+footer p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+footer h2 {
+    font-size: 2.5em;
 }
 
 /* -------------------------------------------------------------------- */
