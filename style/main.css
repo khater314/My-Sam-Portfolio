@@ -103,7 +103,8 @@ nav .container .nav_social {
 /* ---------------------------- start Hero Section ---------------------------- */
 /* ---------------------------------------------------------------------------- */
 .hero_panner {
-    height: calc(100vh - 10em);
+    /* height: calc(100vh - 10em); */
+    height: fit-content;
     display: flex;
     align-items: center;
 }
@@ -215,7 +216,7 @@ nav .container .nav_social {
 /* ---------------------------- Start Experience Box ---------------------------- */
 /* ------------------------------------------------------------------------------ */
 .experience {
-    height: 80vh;
+    height: fit-content;
 }
 .experience h4 {
     font-weight: 500;
@@ -377,12 +378,18 @@ footer h2 {
     }
 }
 @media (max-width: 768px) {
-    .larg_width_project {
+    .larg_width_project, 
+    .small_width_project, 
+    .experience_box,
+    .chat, 
+    .check_out {
         width: 100%;
     }
-    .small_width_project {
-        width: 100%;
+    .experience_boxes {
+        flex-direction: column;
     }
+
+
 }
 /* ------------------------------------------------------------------------- */
 /* ---------------------------- End Media Query ---------------------------- */
