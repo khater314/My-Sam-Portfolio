@@ -388,6 +388,13 @@ footer h2 {
     .experience_boxes {
         flex-direction: column;
     }
+    footer .container {
+        flex-direction: column;
+        gap: 3em;
+    }
+    .check_out .icons {
+        justify-content: start;
+    }
 
 
 }
